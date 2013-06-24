@@ -1,0 +1,12 @@
+These are the historical kernel patches that added lzma1 support to
+Squashfs.  These patches were rejected for the mainline kernel in 2010,
+and so lzma1 support for Squashfs was abandoned.
+
+I have put these patches back up on kernel.org as a service to
+owners that have embedded systems that use these legacy
+lzma1 compressed Squashfs filesystems.  Their use is deprecated for
+anything else.
+
+The kernel version is 2.6.33-rc4 which was the kernel the patches
+were prepared and tested against.  I have no idea if the patches will
+compile and work on later kernels.
